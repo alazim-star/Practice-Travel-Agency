@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding:0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: url(image/istockphoto-1325212877-1024x1024.jpg);
+            background-repeat: no-repeat;
+            position: center;
+            background-size: cover;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+            background-color: rgba(68, 166, 223, 0.685);
+
+        }
+        .navbar{
+            height: 12%;
+      display:flex;
+            align-items: center;
+    
+        }
+        .logo{
+            width: 50px;
+            cursor: pointer;
+        }
+        nav{
+            flex: 1;
+            text-align: right;
+        }
+        nav ul li {
+        
+          list-style :none;
+            display: inline-block;
+            margin-left: 60px;
+
+        }
+        nav ul li a {
+       color:white;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            height: 88%;
+
+        }
+         h1{
+            color:#ff5400;
+            font-size: 4rem;
+    
+            text-align: center;
+           
+
+        }
+        h2{
+            font: size 30px;
+            color: #c71212;
+            text-align: center;
+        }
+         p{
+            line-height: 15px;
+            font-size: 1rem;
+            color: white;
+            text-transform: capitalize;
+
+        }
+        .col{
+            flex-basis: 50%;
+
+        }
+        .button{
+            background-color: white;
+            width: 188px;
+            color: #000000;
+            border-radius: 20px;
+            outline: none;
+            border: 0;
+            margin-top: 30px;
+            padding: 12px 0px;
+
+        }
+        .card{
+            transition: transform 0.5s;
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-image: url(./image/Rectangle\ 11.png);
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .card-1{
+            background-image: url(./image/Rectangle\ 11.png);
+        }
+        .card-2{
+            background-image: url(./image/Rectangle\ 6.png);
+        }
+        .card-3{
+            background-image: url(./image/Rectangle\ 7.png);
+        }
+        .card-4{
+            background-image: url(./image/Rectangle\ 8.png);
+        }
+        .card:hover{
+            transform:translateY(-10px)
+        }
+        h5{
+            color: #ff5400;
+            margin-top: 150px;
+            
+
+        }
+     
+
+        
+    </style>
+</head>
+<body>
+    <main>
+    <div class="container">
+       <div class="navbar">
+        <img src="image/Group 40071 (2).png" alt="">
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Booking</a></li>
+            <li><a href="">Contact</a></li>
+           
+        </ul>
+    </nav>
+    </div>
+
+<div class="row">
+    <div class="col">
+
+        <h1>Alpha Tours And Travels</h1>
+        <h2>"Travel With JOY"</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam a facilis illo architecto sit ducimus natus error fuga debitis qui.</p>
+        <button class="button">Explore</button>
+
+    </div>
+    <div class="col">
+        <div class="card card-1">
+            <h5>Amazon</h5>
+            <p>The biggest forest</p>
+        </div>
+        <div class="card card-2">
+            <h5>Nepal</h5>
+            <p>the city of mountain.</p>
+        </div>
+        <div class="card card-3">
+            <h5>Lahore</h5>
+            <p>the most beautiful.</p>
+        </div>
+        <div class="card card-4">
+            <h5>Singapore</h5>
+            <p>beautiful see bitch.</p>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+    </div>
+</main>
+<footer>
+
+
+</footer>
+
+</body>
+</html>
